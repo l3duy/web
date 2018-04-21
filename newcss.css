@@ -1,0 +1,100 @@
+*,body{
+    margin:0;
+    font-family: sans-serif, arial;
+}
+header {
+    background: #ffffcc;
+}
+header #_logo{
+    
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+header #_top {
+    position: absolute;
+    padding-top: 39px;
+    text-align: center;
+    padding-left: 500px;
+    padding-top:80px;
+}
+header #_top > h1 {
+    color: #0000cc;
+}
+nav {
+    background: #cccccc;
+}
+nav > #_home > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    }
+    nav  #_home > ul > li{
+         float: left;
+    }
+    nav > #_home > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    }
+    nav > #_home > ul > li > a:hover {
+        background-color: #000000;
+    }
+    
+    section {
+        background: #ffffff;
+        
+    }
+    section #than{
+    height:300px;
+    float:left;
+    width: 70%;
+    
+    background-color: #f7f9c4;
+    border-right: 2px solid #000000;
+    }
+    
+    section #than > h1{
+        background: #ffffff;
+        font-size: 20px;
+        padding: 05px;
+        padding-left: 15px;
+    }
+    section #bottom {
+        float: right;
+        width: 100%;
+        border-left: 1px solid #000000;
+       
+    }
+ 
+    section  #bottom > p{
+    border-left: 1px solid #000000;
+    padding: 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+
+      
+    }
+   
+    #tt > p{
+        background: blue;
+        padding: 5px;
+        font-size: 20px;
+        color: #ffffff;
+        }
+        #list > ul{
+          list-style-type: none;  
+        }
+        #list > ul > li > a{
+            text-decoration: none;
+            font-size: 15px;
+            padding-left: 10px;
+        }
